@@ -17,7 +17,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pnpm install
+          corepack enable && pnpm install
 
       - name: Run tests
         run: |
