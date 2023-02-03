@@ -10,6 +10,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
+		"prepublishOnly": "pnpm build",
 		"lint": "rome ci .",
 		"format": "rome format . --write",
 		"test": "vitest",
