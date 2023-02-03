@@ -1,5 +1,7 @@
 # ng-date-utils
 
+![ci workflow](https://github.com/sebaplaza/ng-date-utils/actions/workflows/ci.yml/badge.svg)
+
 AngularJS filter to show dates always in UTC
 
 ## Usage
